@@ -1,0 +1,12 @@
+interface:
+  display_name: Agent Tool Orchestration
+  short_description: Plan, execute, verify, and present multi-tool agent workflows.
+  default_prompt: Use $agent-tool-orchestration to design and execute a reliable multi-tool
+    agent workflow.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
